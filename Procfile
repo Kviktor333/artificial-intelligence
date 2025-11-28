@@ -1,1 +1,1 @@
-worker: python sport_bot.py
+worker: python payment_bot.py
