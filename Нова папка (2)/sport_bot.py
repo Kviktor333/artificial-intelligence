@@ -8,9 +8,8 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # --- КОНФІГУРАЦІЯ ---
-API_TOKEN = 'ВАШ_TELEGRAM_TOKEN_ТУТ'
-WEATHER_API_KEY = 'ВАШ_OPENWEATHER_KEY_ТУТ' # Той самий, що в минулій лабі
-
+API_TOKEN = '8256923838:AAHDGyhHPEIngHAzTKAAXh0tiEH-rwpCXZk'
+WEATHER_API_KEY = '0a464e64a7076ed7db04926c95fe758b' 
 # Налаштування логування (Пункт 8)
 logging.basicConfig(level=logging.INFO)
 
@@ -145,4 +144,5 @@ if __name__ == "__main__":
     try:
         asyncio.run(main())
     except (KeyboardInterrupt, SystemExit):
+
         print("Бот зупинено")
