@@ -7,7 +7,7 @@ from aiogram.types import LabeledPrice, PreCheckoutQuery
 
 # --- КОНФІГУРАЦІЯ ---
 # Вставте сюди ваші токени!
-API_TOKEN = '8256923838:AAHDGyhHPEIngHAzTKAAXh0tiEH-rwpCXZk'      
+API_TOKEN = '8256923838:AAHgIWshAaPkD_6Son-VFHQsKylpjgkqO0c'      
 PAYMENT_TOKEN = '1877036958:TEST:c6a5279d9339d736f1ed844566a58fd411ab3068'   
 
 # Налаштування логування
@@ -112,4 +112,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
