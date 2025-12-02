@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Привітання</h1>
+<form method="POST">
+    <div class="mb-3">
+        <label class="form-label">Ваше ім'я:</label>
+        <input type="text" name="name" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-success">Надіслати</button>
+</form>
+
+{% if name %}
+    <h2 class="mt-4 text-success">Привіт, {{ name }}! Раді тебе бачити! 👋</h2>
+{% endif %}
+{% endblock %}
