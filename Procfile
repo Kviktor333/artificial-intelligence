@@ -1,1 +1,1 @@
-worker: python payment_bot.py
+web: python app.py
